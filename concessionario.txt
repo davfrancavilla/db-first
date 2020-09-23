@@ -5,11 +5,11 @@ ID				numero incrementale				PRIMARY KEY-AI	UNIQUE
 Targa				stringa		varchar(8)		NOT NULL		UNIQUE
 Marca Auto			stringa		varchar(15)		NOT NULL
 Modello Auto			stringa		varchar(20)		NOT NULL
-Prezzo				numero		mediumint		NOT NULL
+Prezzo				numero		float		NOT NULL
 Condizioni			stringa		varchar(10)		NOT NULL
 Km				numero		mediumint		NOT NULL
 Alimentazione			stringa		varchar(15)		NOT NULL
-Note				stringa		varchar(500)
+Note				stringa		text
 Pronta alla vendita		booleano	tinyint			NOT NULL			DEFAULT(0)
 Cilindrata			numero		smallint		NOT NULL
 Colore				string		varchar(15)
